@@ -234,7 +234,7 @@ void loop() {
     display.setTextSize(3);
     display.setTextColor(SSD1306_WHITE);
     display.setCursor(15, 22);
-    if (enterhour < 10) {
+    if ((Clock.getHour(h12Flag, pmFlag), DEC) < 10) {
  display.setCursor(5, 26);
  display.print("0"); 
  display.setCursor(17, 26); 
